@@ -36,7 +36,7 @@ def solution(play_time, adv_time, logs):
     for i in range(play_time-adv_time+1):
         if m < user_cnt[i+adv_time] - user_cnt[i]:
             m = user_cnt[i+adv_time] - user_cnt[i]
-            result = i+1
+            result = i + 1
             if i == 0:
                 result = 0
 
